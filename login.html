@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Вход</title>
         <link rel="stylesheet" href="css/metro-bootstrap.css">
+    <!-- Custom styles -->
+        <link href="css/styles.css" rel="stylesheet">
         <script src="js/jquery-2.1.3.min.js"></script>
         <script src="js/metro.min.js"></script>
     </head>
-    <body class="metro">
-        ... markup page ...
+    <body  class="metro">
+
+        <form class="form-login">
+            <h2 class="form-login-heading">Авторизация</h2>
+            <div class="input-control text">
+                <input type="text" id="inputLogin" value="" placeholder="Логин"/>
+                <button class="btn-clear"></button>
+            </div>
+            <div class="input-control password">
+                <input type="password" value="" placeholder="Пароль"/>
+                <button class="btn-reveal"></button>
+            </div>
+            <div class="input-control checkbox" id="rememberMe">
+                <label>
+                    <input type="checkbox" />
+                    <span class="check"></span>
+                    Запомнить меня
+                </label>
+            </div><br>
+            <input type="submit" value="Войти">
+            <a href="" class="fg-white" id="forgotPassword">Забыли пароль?</a>
+        </form>
+
     </body>
 </html>

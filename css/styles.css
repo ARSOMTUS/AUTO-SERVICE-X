@@ -1,0 +1,28 @@
+body {
+/*  background-color: #eee;*/
+  background-color: #333333;
+/*  background-color: #0f6d39;*/
+}
+
+/* FORM LOGIN */
+
+.metro .form-login {
+  position: absolute;
+  width: 220px;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -100px;
+  color: #fff;
+}
+.form-login .form-login-heading, #rememberMe{
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#forgotPassword {
+  display: inline-block;
+}
+
+/* END */
