@@ -1,7 +1,5 @@
 body {
-/*  background-color: #eee;*/
   background-color: #333333;
-/*  background-color: #0f6d39;*/
 }
 
 /* FORM LOGIN */
@@ -16,13 +14,27 @@ body {
   margin-top: -100px;
   color: #fff;
 }
-.form-login .form-login-heading, #rememberMe{
+.metro .form-login h2,
+.metro .form-login div[class*="input-control checkbox"] {
   margin-bottom: 20px;
   color: #fff;
 }
-
-#forgotPassword {
+.metro .form-login a {
+  position: absolute;
+  font-family: 'Segoe UI Light_', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
   display: inline-block;
+  height: 28px;
+  padding: 8px 0 0 8px;
+}
+.metro .form-login input[type="submit"] {
+  background-color: #333333;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 80px;
+}
+.metro .form-login input[type="submit"]:hover {
+  transition: 0.1s;
+  background-color: #393939;
 }
 
 /* END */
