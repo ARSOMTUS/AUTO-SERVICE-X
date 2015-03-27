@@ -204,6 +204,18 @@ body,
   top: 0;
 }
 
+/* END */
+
+/* NAVBAR CUSTOM */
+
+#navbar button[class~="navbar-right"] {
+  margin-right: 0;
+}
+#navbar p[class~="navbar-right"] {
+  margin-right: 15px;
+}
+/* END */
+
 /* FORM LOGIN */
 
 .container .form-login {
