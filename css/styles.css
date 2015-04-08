@@ -6,7 +6,7 @@
 
 /* Account for fixed navbar */
 body {
-  padding-top: 70px;
+  padding-top: 50px; /* Default: 70px */
   padding-bottom: 30px;
   background-color: #fff;
 }
@@ -210,9 +210,11 @@ body,
 
 #navbar button[class~="navbar-right"] {
   margin-right: 0;
+  float: right;
 }
 #navbar p[class~="navbar-right"] {
   margin-right: 15px;
+  float: right;
 }
 /* END */
 
@@ -255,6 +257,85 @@ body,
 }
 .container .form-login button[type="submit"] {
   margin-bottom: 10px;
+}
+
+/* END */
+
+/* MENU */
+
+.menu-nav-bar {
+  display: inline-block;
+  padding: 40px 28px 25px 0;
+  width: 213px;
+/*  margin-left: 20px;*/
+}
+ul.menu-nav-bar {
+  font-size: 1em;
+  line-height: 0.5em;
+  list-style: none outside none;
+/*  margin: 0;*/
+  padding: 0;
+}
+ul.menu-nav-bar li {
+  list-style: none;
+}
+ul.menu-nav-bar li a {
+  color: #000;
+  display: block;
+  font-size: 11px;
+  font-weight: bolder;
+  line-height: 10px;
+  padding: 10px 5px;
+  text-decoration: none;
+  background: #f2f2f2;
+  border-bottom: 1px solid #D3D3D3;
+}
+ul.menu-nav-bar li a:hover {
+  background-color: #7D7D7D;
+  color: white;
+}
+ul.menu-nav-bar ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+ul.menu-nav-bar ul li {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+ul.menu-nav-bar ul li a {
+  font-size: 10px;
+  font-weight: normal;
+  outline: 0 none;
+  padding-left: 20px;
+}
+ul.menu-nav-bar ul li a:hover {
+  background-color: #DCDCDC;
+  color: #555;
+}
+ul.menu-nav-bar ul ul li a {
+  color: silver;
+  padding-left: 40px;
+}
+ul.menu-nav-bar ul ul li a:hover {
+  background-color: #D7D7D7;
+  color: #555555;
+}
+ul.menu-nav-bar span {
+  float: right;
+}
+
+/* END */
+
+/* MAIN CONTENT */
+
+.main-content {
+  display: inline-block;
+  float: right;
+  width: 1707px;
+  padding: 15px;
+  height: auto;
 }
 
 /* END */
